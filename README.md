@@ -1,5 +1,5 @@
 # WordCount-in-Google-Corpus
-Word Count del Corpus de Google (Solo 5GB de los datas) con threads 
+Word Count del Corpus de Google (Solo 5GB de los datos) con threads 
 
 Se tienen dos scripts principales
 - WordCount.py -> que ejecuta todo con 8 threads al mismo tiempo y un joiner que va agregando los datos de estos threads a un diccionario global una vez acaben de ejecutarse.
@@ -13,3 +13,6 @@ Las capturas del programa se adjuntará a una carpeta llamada Capturas de ejecuc
 
 Este trabajo fue realizado por Ricardo Manuel Lazo Vásquez para el curso de Cloud Computing UCSP.
 
+GitHub: https://github.com/TheReverseWasp/WordCount-to-Google-Corpus
+
+Demo: https://youtu.be/apg5lyy83Hc
