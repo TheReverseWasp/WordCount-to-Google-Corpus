@@ -5,10 +5,8 @@ import time
 
 dicFile = {}
 dicResultados = {}
-regWord = "[a-z]*$"
 pathDatos = "Datos/"
 pathResultados = "Resultados/"
-filenames = []
 
 def threadfun(filename):
     print("Thread " + filename + " beggining...")

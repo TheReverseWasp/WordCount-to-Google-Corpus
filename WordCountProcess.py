@@ -5,7 +5,6 @@ import time
 
 dicFile = {}
 dicResultados = {}
-regWord = "[a-z]*$"
 pathDatos = "Datos/"
 pathResultados = "Resultados/"
 
@@ -35,6 +34,8 @@ def joiner(filenames, ini, fin):
             break
         filename = filenames[i]
         print("Joining file " + filename)
+        with open(pathResultados + filename + ".json", "r") as rf:
+            dicFile[filename] = json.load(rf)
         for k, v in dicFile[filename].items():
             if k in dicResultados:
                 dicResultados[k] += v
