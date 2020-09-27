@@ -1,7 +1,7 @@
 # WordCount-in-Google-Corpus
-Word Count del Corpus de Google (Solo 5GB de los datos) con threads 
+Word Count del Corpus de Google (Solo 5GB de los datos) con threads y procesos.
 
-Se tienen dos scripts principales
+Se tienen dos scripts principales:
 - WordCount.py -> que ejecuta todo con 8 threads al mismo tiempo y un joiner que va agregando los datos de estos threads a un diccionario global una vez acaben de ejecutarse.
 - WordCountProcess.py -> que hace lo mismo pero con procesos.
 
